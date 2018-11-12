@@ -8,5 +8,5 @@ if(answer === number){ message = '大当たり！お見事です！';
 }else if(answer > number){ message = '残念！もうちょっと小さいよ！';
 }else{ message = '0～2の数字を入力してね！'; }
 
-//結果を表示
+//　結果を表示
  document.getElementById('choice').textContent = message;
