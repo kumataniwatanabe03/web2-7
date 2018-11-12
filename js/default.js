@@ -1,4 +1,4 @@
-//答え
+//　答え
 var number = Math.floor(Math.random()*2);
 var answer = parseInt(window.prompt('0～2の数字を入力してね！'))
 
