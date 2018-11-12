@@ -3,9 +3,9 @@ var result = window.confirm('私は一体何の数字を思い浮かべている
 
 //　結果を表示
 if(result){
- document.getElementById('choice').textContent = 'OKが押されました';
+ document.getElementById('choice').textContent = 'OKが押されました！頑張ってみてね！';
 }else{
- document.getElementById('choice').textContent = 'キャンセルが押されました'; }
+ document.getElementById('choice').textContent = 'キャンセルが押されました。またの挑戦をお待ちしております！'; }
 
 //答え
 var number = Math.floor(Math.random()*2);
